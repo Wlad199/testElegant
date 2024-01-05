@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>3legant</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240105194103">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<div class="menu__box">
+						<div class="menu__icon">
+							<span></span>
+						</div>
+						<a href="./index.html" class="menu__logo">3legant.</a>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<form class="menu__form" action="#">
+								<button type="submit" class="form__button_s">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z" stroke="#141718" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</button>
+								<input class="menu__search" type="text" name="search" autocomplete="off" placeholder="Search">
+							</form>
+							<li><a href="./index.html" class="menu-link">Home</a></li>
+							<li class="menu__item">
+								<a href="./shop.html" class="menu-link">Shop</a>
+							</li>
+							<li class="menu__item">
+								<a href="./blog.html" class="menu-link">Our Blog</a>
+							</li>
+							<li><a href="./contact.html" class="menu-link">Contact Us</a></li>
+						</ul>
+						<div class="menu__options options-menu">
+							<div id="cart" class="options-menu__item">
+								<p>Cart</p>
+								<p>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path d="M9 6L9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7V6" stroke="#141718" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M15.6115 3H8.38848C6.43313 3 4.76436 4.41365 4.44291 6.3424L2.77624 16.3424C2.36988 18.7805 4.25006 21 6.72182 21H17.2781C19.7499 21 21.6301 18.7805 21.2237 16.3424L19.557 6.3424C19.2356 4.41365 17.5668 3 15.6115 3Z" stroke="#141718" stroke-width="1.5" stroke-linejoin="round" />
+									</svg>
+								</p>
+							</div>
+							<div class="options-menu__item">
+								<p>Wishlist</p>
+								<p>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M12.6924 7.58373C12.3055 7.95505 11.6945 7.95505 11.3076 7.58373L10.6152 6.91927C9.80477 6.14154 8.70994 5.66667 7.5 5.66667C5.01472 5.66667 3 7.68139 3 10.1667C3 12.5493 4.28979 14.5167 6.15176 16.1332C8.01532 17.7511 10.2434 18.8241 11.5746 19.3717C11.853 19.4862 12.147 19.4862 12.4254 19.3717C13.7566 18.8241 15.9847 17.7511 17.8482 16.1332C19.7102 14.5167 21 12.5493 21 10.1667C21 7.68139 18.9853 5.66667 16.5 5.66667C15.2901 5.66667 14.1952 6.14154 13.3848 6.91927L12.6924 7.58373ZM12 5.47624C10.8321 4.35548 9.24649 3.66667 7.5 3.66667C3.91015 3.66667 1 6.57682 1 10.1667C1 16.5349 7.97034 20.0517 10.8138 21.2214C11.5796 21.5364 12.4204 21.5364 13.1862 21.2214C16.0297 20.0517 23 16.5349 23 10.1667C23 6.57682 20.0899 3.66667 16.5 3.66667C14.7535 3.66667 13.1679 4.35548 12 5.47624Z" fill="#141718" />
+									</svg>
+								</p>
+							</div>
+							<button data-popup="#signIn" class="options-menu__button button">Sign In</button>
+							<div class="options-menu__social">
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<rect x="2" y="2" width="20" height="20" rx="4" stroke="#141718" stroke-width="1.5" />
+										<circle cx="18" cy="6" r="1" fill="#141718" />
+										<circle cx="12" cy="12" r="5" stroke="#141718" stroke-width="1.5" />
+									</svg>
+								</a>
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path d="M18 3H15C12.2386 3 10 5.23858 10 8V10H6V14H10V21H14V14H18V10H14V8C14 7.44772 14.4477 7 15 7H18V3Z" stroke="#141718" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<rect x="2" y="3" width="20" height="18" rx="4" stroke="#141718" stroke-width="1.5" />
+										<path d="M10.4472 8.72361L15.2111 11.1056C15.9482 11.4741 15.9482 12.5259 15.2111 12.8944L10.4472 15.2764C9.78231 15.6088 9 15.1253 9 14.382V9.61803C9 8.87465 9.78231 8.39116 10.4472 8.72361Z" stroke="#141718" stroke-width="1.5" stroke-linecap="round" />
+									</svg>
+								</a>
+							</div>
+						</div>
+					</nav>
+					<div class="menu__manage manage-menu">
+						<div class="manage-menu__search" tabindex="0">
+							<form action="#">
+								<input type="search">
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M18.5 18.5L22 22M21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21C16.7467 21 21 16.7467 21 11.5Z" stroke="#141718" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</form>
+						</div>
+						<button data-popup="#signIn" class="manage-menu__profile">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M18.5588 19.5488C17.5654 16.8918 15.0036 15 12 15C8.99638 15 6.4346 16.8918 5.44117 19.5488M18.5588 19.5488C20.6672 17.7154 22 15.0134 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 15.0134 3.33285 17.7154 5.44117 19.5488M18.5588 19.5488C16.8031 21.0756 14.5095 22 12 22C9.49052 22 7.19694 21.0756 5.44117 19.5488M15 9C15 10.6569 13.6569 12 12 12C10.3431 12 9 10.6569 9 9C9 7.34315 10.3431 6 12 6C13.6569 6 15 7.34315 15 9Z" stroke="#141718" stroke-width="1.5" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<button class="manage-menu__cart">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+								<path d="M9 6L9 7C9 8.65685 10.3431 10 12 10C13.6569 10 15 8.65685 15 7V6" stroke="#141718" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M15.6115 3H8.38851C6.43316 3 4.7644 4.41365 4.44294 6.3424L2.77627 16.3424C2.36992 18.7805 4.25009 21 6.72185 21H17.2782C19.7499 21 21.6301 18.7805 21.2237 16.3424L19.5571 6.3424C19.2356 4.41365 17.5669 3 15.6115 3Z" stroke="#141718" stroke-width="1.5" stroke-linejoin="round" />
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="flyout">
+				<div class="flyout__body">
+					<div class="flyout__head">
+						<p>Cart</p>
+						<div class="close-flyout">
+							<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#6C7275" />
+							</svg>
+						</div>
+					</div>
+					<div class="flyout__cart">
+						<div class="flyout__item">
+							<div class="item-flyout__image">
+								<picture><source srcset="img/flyout/01.webp" type="image/webp"><img src="img/flyout/01.jpg" alt="image"></picture>
+							</div>
+							<div class="item-flyout__content">
+								<div class="item-flyout__name">Tray Table</div>
+								<div class="item-flyout__color">Color: Black</div>
+								<div class="item-flyout__counter counter">
+									<div class="counter__minus">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 16 16" fill="none">
+											<path d="M3.22925 8H12.5626" stroke="#000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+									<div class="counter__figure">2</div>
+									<div class="counter__plus">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 16 16" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M8.375 3.33301C8.375 3.1259 8.20711 2.95801 8 2.95801C7.79289 2.95801 7.625 3.1259 7.625 3.33301V7.62469H3.33325C3.12615 7.62469 2.95825 7.79259 2.95825 7.99969C2.95825 8.2068 3.12615 8.37469 3.33325 8.37469H7.625V12.6663C7.625 12.8734 7.79289 13.0413 8 13.0413C8.20711 13.0413 8.375 12.8734 8.375 12.6663V8.37469H12.6666C12.8737 8.37469 13.0416 8.2068 13.0416 7.99969C13.0416 7.79259 12.8737 7.62469 12.6666 7.62469H8.375V3.33301Z" fill="#121212" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="item-flyout__price">
+								<p>$19.19</p>
+								<button class="delete-item">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#6C7275" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="flyout__item">
+							<div class="item-flyout__image">
+								<picture><source srcset="img/flyout/02.webp" type="image/webp"><img src="img/flyout/02.jpg" alt="image"></picture>
+							</div>
+							<div class="item-flyout__content">
+								<div class="item-flyout__name">Tray Table</div>
+								<div class="item-flyout__color">Color: Red</div>
+								<div class="item-flyout__counter counter">
+									<div class="counter__minus">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 16 16" fill="none">
+											<path d="M3.22925 8H12.5626" stroke="#000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+									<div class="counter__figure">1</div>
+									<div class="counter__plus">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 16 16" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M8.375 3.33301C8.375 3.1259 8.20711 2.95801 8 2.95801C7.79289 2.95801 7.625 3.1259 7.625 3.33301V7.62469H3.33325C3.12615 7.62469 2.95825 7.79259 2.95825 7.99969C2.95825 8.2068 3.12615 8.37469 3.33325 8.37469H7.625V12.6663C7.625 12.8734 7.79289 13.0413 8 13.0413C8.20711 13.0413 8.375 12.8734 8.375 12.6663V8.37469H12.6666C12.8737 8.37469 13.0416 8.2068 13.0416 7.99969C13.0416 7.79259 12.8737 7.62469 12.6666 7.62469H8.375V3.33301Z" fill="#121212" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="item-flyout__price">
+								<p>$19.19</p>
+								<button class="delete-item">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#6C7275" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="flyout__item">
+							<div class="item-flyout__image">
+								<picture><source srcset="img/flyout/03.webp" type="image/webp"><img src="img/flyout/03.jpg" alt="image"></picture>
+							</div>
+							<div class="item-flyout__content">
+								<div class="item-flyout__name">Table lamp</div>
+								<div class="item-flyout__color">Color: gold</div>
+								<div class="item-flyout__counter counter">
+									<div class="counter__minus">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 16 16" fill="none">
+											<path d="M3.22925 8H12.5626" stroke="#000" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+									<div class="counter__figure">1</div>
+									<div class="counter__plus">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="32" viewBox="0 0 16 16" fill="none">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M8.375 3.33301C8.375 3.1259 8.20711 2.95801 8 2.95801C7.79289 2.95801 7.625 3.1259 7.625 3.33301V7.62469H3.33325C3.12615 7.62469 2.95825 7.79259 2.95825 7.99969C2.95825 8.2068 3.12615 8.37469 3.33325 8.37469H7.625V12.6663C7.625 12.8734 7.79289 13.0413 8 13.0413C8.20711 13.0413 8.375 12.8734 8.375 12.6663V8.37469H12.6666C12.8737 8.37469 13.0416 8.2068 13.0416 7.99969C13.0416 7.79259 12.8737 7.62469 12.6666 7.62469H8.375V3.33301Z" fill="#121212" />
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="item-flyout__price">
+								<p>$39.00</p>
+								<button class="delete-item">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M5.29289 5.29289C5.68342 4.90237 6.31658 4.90237 6.70711 5.29289L12 10.5858L17.2929 5.29289C17.6834 4.90237 18.3166 4.90237 18.7071 5.29289C19.0976 5.68342 19.0976 6.31658 18.7071 6.70711L13.4142 12L18.7071 17.2929C19.0976 17.6834 19.0976 18.3166 18.7071 18.7071C18.3166 19.0976 17.6834 19.0976 17.2929 18.7071L12 13.4142L6.70711 18.7071C6.31658 19.0976 5.68342 19.0976 5.29289 18.7071C4.90237 18.3166 4.90237 17.6834 5.29289 17.2929L10.5858 12L5.29289 6.70711C4.90237 6.31658 4.90237 5.68342 5.29289 5.29289Z" fill="#6C7275" />
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="flyout__sum">
+						<div class="sum__subtotal">
+							<p>Subtotal</p>
+							<p>$99.00</p>
+						</div>
+						<div class="sum__total">
+							<p>Total</p>
+							<p>$234.00</p>
+						</div>
+						<button class="sum__button button">Checkout</button>
+						<div class="sum__link"><a href="#">View Cart</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="to-top" data-goto=".page" data-goto-top="80">
+				<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M9.99999 15.8333V4.16659" stroke="#6C7275" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M15 9.16675L9.99999 4.16675" stroke="#6C7275" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+					<path d="M5 9.16675L10 4.16675" stroke="#6C7275" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+				</svg>
+			</div>
+		</header>
+
+		<main class="page">
+			<div class="main-screen">
+				<div class="main-screen__container">
+					<ul class="main-screen__body">
+						<li>
+							<a href="#" class="main-screen__item-ibg">
+								<picture><source srcset="img/main-screen/01.webp" type="image/webp"><img src="img/main-screen/01.jpg" alt="image"></picture>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="main-screen__item-ibg">
+								<picture><source srcset="img/main-screen/02.webp" type="image/webp"><img src="img/main-screen/02.jpg" alt="image"></picture>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="main-screen__item-ibg">
+								<picture><source srcset="img/main-screen/03.webp" type="image/webp"><img src="img/main-screen/03.jpg" alt="image"></picture>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<section class="slogan">
+				<div class="slogan__container">
+					<div class="slogan__body">
+						<h1 class="slogan__title">Simply Unique/ Simply Better.</h1>
+						<div class="slogan__text"><span>3legant</span> is a gift & decorations store based in HCMC, Vietnam. Est since 2019. </div>
+					</div>
+				</div>
+			</section>
+			<div class="template">
+				<div class="template__container">
+					<div class="template__body">
+						<div class="template__left-ibg">
+							<div class="template__descr">
+								<div class="template__title">Living Room</div>
+								<a href="./shop.html" class="template__link link-arrow">
+									<p>Shop Now</p>
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+										<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+							</div>
+							<div data-change>
+								<picture><source srcset="img/template/01.webp" type="image/webp"><img src="img/template/01.jpg" alt="image"></picture>
+								<picture><source srcset="img/template/011.webp" type="image/webp"><img src="img/template/011.jpg" alt="image"></picture>
+							</div>
+						</div>
+						<div class="template__right">
+							<div class="template__top-ibg">
+								<div class="template__descr">
+									<div class="template__title">Bedroom</div>
+									<a href="./shop.html" class="template__link link-arrow">
+										<p>Shop Now</p>
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+											<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+								<div data-change>
+									<picture><source srcset="img/template/02.webp" type="image/webp"><img src="img/template/02.jpg" alt="image"></picture>
+									<picture><source srcset="img/template/022.webp" type="image/webp"><img src="img/template/022.jpg" alt="image"></picture>
+								</div>
+							</div>
+							<div class="template__bottom-ibg">
+								<div class="template__descr">
+									<div class="template__title">Kitchen</div>
+									<a href="./shop.html" class="template__link link-arrow">
+										<p>Shop Now</p>
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+											<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</a>
+								</div>
+								<div data-change>
+									<picture><source srcset="img/template/03.webp" type="image/webp"><img src="img/template/03.jpg" alt="image"></picture>
+									<picture><source srcset="img/template/033.webp" type="image/webp"><img src="img/template/033.jpg" alt="image"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="arrivals">
+				<div class="arrivals__container">
+					<h3 class="arrivals__title title">New <br> Arrivals</h3>
+					<a href="./shop.html" class="arrivals__link link-arrow">
+						<p>More Products</p>
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+							<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+							<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+					<div class="arrivals__body">
+						<div class="arrivals__item item-arrivals">
+							<div class="item-arrivals__card card-arrivals-ibg">
+								<div class="card-arrivals__box">
+									<div class="card-arrivals__offer">
+										<p>NEW</p>
+										<p>-50%</p>
+									</div>
+									<button class="card-arrivals__like">
+										<img src="img/arrivals/icon/like.svg" alt="like">
+										<img src="img/arrivals/icon/like-check.svg" alt="like">
+									</button>
+								</div>
+								<a href="./goods.html" class="card-arrivals__button button">Add to cart</a>
+								<picture><source srcset="img/arrivals/01.webp" type="image/webp"><img src="img/arrivals/01.jpg" alt="image"></picture>
+							</div>
+							<div class="item-arrivals__description description-arrivals">
+								<div class="description-arrivals__star">
+									<div class="rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">0</div>
+									</div>
+								</div>
+								<div class="description-arrivals__name">Loveseat Sofa</div>
+								<div class="description-arrivals__price">
+									<p>$199.00</p>
+									<p>$400.00</p>
+								</div>
+							</div>
+						</div>
+						<div class="arrivals__item item-arrivals">
+							<div class="item-arrivals__card card-arrivals-ibg">
+								<div class="card-arrivals__box">
+									<div class="card-arrivals__offer">
+										<p>NEW</p>
+										<p>-50%</p>
+									</div>
+									<button class="card-arrivals__like">
+										<img src="img/arrivals/icon/like.svg" alt="like">
+										<img src="img/arrivals/icon/like-check.svg" alt="like">
+									</button>
+								</div>
+								<a href="./goods.html" class="card-arrivals__button button">Add to cart</a>
+								<picture><source srcset="img/arrivals/02.webp" type="image/webp"><img src="img/arrivals/02.jpg" alt="image"></picture>
+							</div>
+							<div class="item-arrivals__description description-arrivals">
+								<div class="description-arrivals__star">
+									<div class="rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">0</div>
+									</div>
+								</div>
+								<div class="description-arrivals__name">Table Lamp</div>
+								<div class="description-arrivals__price">
+									<p>$24.99</p>
+								</div>
+							</div>
+						</div>
+						<div class="arrivals__item item-arrivals">
+							<div class="item-arrivals__card card-arrivals-ibg">
+								<div class="card-arrivals__box">
+									<div class="card-arrivals__offer">
+										<p>NEW</p>
+										<p>-50%</p>
+									</div>
+									<button class="card-arrivals__like">
+										<img src="img/arrivals/icon/like.svg" alt="like">
+										<img src="img/arrivals/icon/like-check.svg" alt="like">
+									</button>
+								</div>
+								<a href="./goods.html" class="card-arrivals__button button">Add to cart</a>
+								<picture><source srcset="img/arrivals/03.webp" type="image/webp"><img src="img/arrivals/03.jpg" alt="image"></picture>
+							</div>
+							<div class="item-arrivals__description description-arrivals">
+								<div class="description-arrivals__star">
+									<div class="rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">0</div>
+									</div>
+								</div>
+								<div class="description-arrivals__name">Beige Table Lamp</div>
+								<div class="description-arrivals__price">
+									<p>$34.99</p>
+								</div>
+							</div>
+						</div>
+						<div class="arrivals__item item-arrivals">
+							<div class="item-arrivals__card card-arrivals-ibg">
+								<div class="card-arrivals__box">
+									<div class="card-arrivals__offer">
+										<p>NEW</p>
+										<p>-50%</p>
+									</div>
+									<button class="card-arrivals__like">
+										<img src="img/arrivals/icon/like.svg" alt="like">
+										<img src="img/arrivals/icon/like-check.svg" alt="like">
+									</button>
+								</div>
+								<a href="./goods.html" class="card-arrivals__button button">Add to cart</a>
+								<picture><source srcset="img/arrivals/04.webp" type="image/webp"><img src="img/arrivals/04.jpg" alt="image"></picture>
+							</div>
+							<div class="item-arrivals__description description-arrivals">
+								<div class="description-arrivals__star">
+									<div class="rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">0</div>
+									</div>
+								</div>
+								<div class="description-arrivals__name">Bamboo basket</div>
+								<div class="description-arrivals__price">
+									<p>$25</p>
+									<p>$39.50</p>
+								</div>
+							</div>
+						</div>
+						<div class="arrivals__item item-arrivals">
+							<div class="item-arrivals__card card-arrivals-ibg">
+								<div class="card-arrivals__box">
+									<div class="card-arrivals__offer">
+										<p>NEW</p>
+										<p>-50%</p>
+									</div>
+									<button class="card-arrivals__like">
+										<img src="img/arrivals/icon/like.svg" alt="like">
+										<img src="img/arrivals/icon/like-check.svg" alt="like">
+									</button>
+								</div>
+								<a href="./goods.html" class="card-arrivals__button button">Add to cart</a>
+								<picture><source srcset="img/arrivals/05.webp" type="image/webp"><img src="img/arrivals/05.jpg" alt="image"></picture>
+							</div>
+							<div class="item-arrivals__description description-arrivals">
+								<div class="description-arrivals__star">
+									<div class="rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">0</div>
+									</div>
+								</div>
+								<div class="description-arrivals__name">Toasted</div>
+								<div class="description-arrivals__price">
+									<p>$224.00</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="advantages">
+				<div class="advantages__container">
+					<div class="advantages__body">
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__icon">
+								<img src="img/advantages/icon/01.svg" alt="icon">
+							</div>
+							<div class="item-advantages__label">Free Shipping</div>
+							<div class="item-advantages__text">Order above $200</div>
+						</div>
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__icon">
+								<img src="img/advantages/icon/02.svg" alt="icon">
+							</div>
+							<div class="item-advantages__label">Money-back</div>
+							<div class="item-advantages__text">30 days guarantee</div>
+						</div>
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__icon">
+								<img src="img/advantages/icon/03.svg" alt="icon">
+							</div>
+							<div class="item-advantages__label">Secure Payments</div>
+							<div class="item-advantages__text">Secured by Stripe</div>
+						</div>
+						<div class="advantages__item item-advantages">
+							<div class="item-advantages__icon">
+								<img src="img/advantages/icon/04.svg" alt="icon">
+							</div>
+							<div class="item-advantages__label">24/7 Support</div>
+							<div class="item-advantages__text">Phone and Email support</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="offer">
+				<div data-change class="offer__image">
+					<picture><source srcset="img/offer/01.webp" type="image/webp"><img src="img/offer/01.jpg" alt="image"></picture>
+					<picture><source srcset="img/offer/011.webp" type="image/webp"><img src="img/offer/011.jpg" alt="image"></picture>
+				</div>
+				<div class="offer__content">
+					<div class="offer__container">
+						<div class="offer__body">
+							<div class="offer__subtitle">SALE UP TO 35% OFF</div>
+							<h3 class="offer__title">HUNDREDS of New lower prices!</h3>
+							<div class="offer__text">It’s more affordable than ever to give every room in your home a stylish makeover</div>
+							<a href="./shop.html" class="offer__link link-arrow">
+								<p>Shop Now</p>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+									<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="articles">
+				<div class="articles__container">
+					<div class="articles__title-block">
+						<h3 class="articles__title title">Articles</h3>
+						<a href="./blog.html" class="articles__link link-arrow">
+							<p>More Articles</p>
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+								<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</a>
+					</div>
+					<div class="articles__body">
+						<div class="articles__item item-articles">
+							<div class="item-articles__image">
+								<picture><source srcset="img/articles/01.webp" type="image/webp"><img src="img/articles/01.jpg" alt="image"></picture>
+							</div>
+							<div class="item-articles__text">7 ways to decor your home</div>
+							<a href="./article.html" class="item-articles__link link-arrow">
+								<p>Read More</p>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+									<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+						<div class="articles__item item-articles">
+							<div class="item-articles__image">
+								<picture><source srcset="img/articles/02.webp" type="image/webp"><img src="img/articles/02.jpg" alt="image"></picture>
+							</div>
+							<div class="item-articles__text">Kitchen organization</div>
+							<a href="./article.html" class="item-articles__link link-arrow">
+								<p>Read More</p>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+									<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+						<div class="articles__item item-articles">
+							<div class="item-articles__image">
+								<picture><source srcset="img/articles/03.webp" type="image/webp"><img src="img/articles/03.jpg" alt="image"></picture>
+							</div>
+							<div class="item-articles__text">Decor your bedroom</div>
+							<a href="./article.html" class="item-articles__link link-arrow">
+								<p>Read More</p>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+									<path d="M4.16666 10H15.8333" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 15L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M10.8333 5L15.8333 10" stroke="#141718" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="newsletter">
+				<div class="newsletter__container">
+					<div class="newsletter__box">
+						<h3 class="newsletter__title">Join Our Newsletter</h3>
+						<div class="newsletter__text">Sign up for deals, new products and promotions</div>
+						<form action="#" class="newsletter__form">
+							<img src="img/newsletter/icons/email.svg" alt="icon">
+							<input class="newsletter__input" type="email" placeholder="Email address" autocomplete="off" data-validate data-required="email" data-error="Введен не верный E-mail">
+							<button class="newsletter__button" type="submit">Signup</button>
+						</form>
+					</div>
+				</div>
+				<picture><source srcset="img/newsletter/01.webp" type="image/webp"><img src="img/newsletter/01.jpg" alt="image"></picture>
+			</section>
+
+			<script>
+				let menuList = document.querySelector('.menu__list')
+				let itemHeaderMenu = menuList.querySelectorAll('li')
+				itemHeaderMenu[0].classList.add('_active')
+			</script>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer-top top-footer" data-spollers="600,max">
+					<div class="top-footer__column top-footer__column_big">
+						<a href="#" class="top-footer__logo">3legant.</a>
+						<div class="top-footer__quote">
+							<p>More than just a game.</p>
+							<p>It’s a lifestyle.</p>
+						</div>
+						<ul class="top-footer__social">
+							<li>
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<rect x="2" y="2" width="20" height="20" rx="4" stroke="#FEFEFE" stroke-width="1.5" />
+										<circle cx="18" cy="6" r="1" fill="#FEFEFE" />
+										<circle cx="12" cy="12" r="5" stroke="#FEFEFE" stroke-width="1.5" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<path d="M18 3H15C12.2386 3 10 5.23858 10 8V10H6V14H10V21H14V14H18V10H14V8C14 7.44772 14.4477 7 15 7H18V3Z" stroke="#FEFEFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+										<rect x="2" y="3" width="20" height="18" rx="4" stroke="#FEFEFE" stroke-width="1.5" />
+										<path d="M10.4472 8.72361L15.2111 11.1056C15.9482 11.4741 15.9482 12.5259 15.2111 12.8944L10.4472 15.2764C9.78231 15.6088 9 15.1253 9 14.382V9.61803C9 8.87465 9.78231 8.39116 10.4472 8.72361Z" stroke="#FEFEFE" stroke-width="1.5" stroke-linecap="round" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="top-footer__column">
+						<div class="top-footer__title" data-spoller>Page</div>
+						<ul class="top-footer__list">
+							<li><a href="./index.html" class="top-footer__item">Home</a></li>
+							<li><a href="./shop.html" class="top-footer__item">Shop</a></li>
+							<li><a href="./goods.html" class="top-footer__item">Product</a></li>
+							<li><a href="./blog.html" class="top-footer__item">Our Blog</a></li>
+							<li><a href="./contact.html" class="top-footer__item">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__column">
+						<div class="top-footer__title" data-spoller>Info</div>
+						<ul class="top-footer__list">
+							<li><a href="#" class="top-footer__item">Shipping Policy</a></li>
+							<li><a href="#" class="top-footer__item">Return & Refund</a></li>
+							<li><a href="#" class="top-footer__item">Support</a></li>
+							<li><a href="#" class="top-footer__item">FAQs</a></li>
+						</ul>
+					</div>
+					<div class="top-footer__column">
+						<div class="top-footer__title" data-spoller>Office</div>
+						<ul class="top-footer__list">
+							<li>43111 Hai Trieu street, District 1, HCMC Vietnam</a></li>
+							<li><a href="tel:847563237" class="top-footer__item">84-756-3237</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom bottom-footer">
+					<div class="bottom-footer__column">
+						<p class="bottom-footer__copy">
+							Copyright © 2023 3legant. All rights reserved
+						</p>
+					</div>
+					<div class="bottom-footer__column">
+						<a href="#">Privacy Policy</a>
+						<a href="#">Terms & Conditions</a>
+					</div>
+					<div class="bottom-footer__column">
+						<ul class="bottom-footer__list">
+							<li>
+								<a href="#" class="bottom-footer__link">
+									<picture><source srcset="img/footer/01.webp" type="image/webp"><img src="img/footer/01.png" alt="payment methods"></picture>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="bottom-footer__link">
+									<picture><source srcset="img/footer/02.webp" type="image/webp"><img src="img/footer/02.png" alt="payment methods"></picture>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="bottom-footer__link">
+									<picture><source srcset="img/footer/03.webp" type="image/webp"><img src="img/footer/03.png" alt="payment methods"></picture>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="bottom-footer__link">
+									<picture><source srcset="img/footer/04.webp" type="image/webp"><img src="img/footer/04.png" alt="payment methods"></picture>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="bottom-footer__link">
+									<picture><source srcset="img/footer/05.webp" type="image/webp"><img src="img/footer/05.png" alt="payment methods"></picture>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="bottom-footer__link">
+									<picture><source srcset="img/footer/06.webp" type="image/webp"><img src="img/footer/06.png" alt="payment methods"></picture>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- signUp -->
+	<div id="signUp" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+					</svg>
+				</button>
+				<div class="sign-up__body">
+					<div class="sign-up__image sign-up__image-ibg">
+						<div class="sign-up__label">3legant.</div>
+						<div data-change class="sign-up__image-box">
+							<picture><source srcset="img/singUp/01.webp" type="image/webp"><img src="img/singUp/01.jpg" alt="image"></picture>
+							<picture><source srcset="img/singUp/0111.webp" type="image/webp"><img src="img/singUp/0111.jpg" alt="image"></picture>
+						</div>
+					</div>
+					<div class="sign-up__content">
+						<div class="sign-up__box">
+							<div class="sign-up__title">Sign up</div>
+							<div class="sign-up__text">Already have an account? <a href="#" data-popup="#signIn">Sign in</a></div>
+							<form class="sign-up__form">
+								<input type="text" name="name" autocomplete="off" class="sign-up__input" placeholder="Your name">
+								<input type="text" name="name" autocomplete="off" class="sign-up__input" placeholder="Username">
+								<input type="text" name="email" autocomplete="off" class="sign-up__input" placeholder="Email address" data-validate data-required="email" data-error="Введен не верный E-mail">
+								<div class="sign-up__pass">
+									<input type="password" name="Password" autocomplete="off" class="sign-up__input" placeholder="Password">
+									<div class="pass-view"></div>
+								</div>
+								<div class="checkbox">
+									<input id="signUp-checkbox" type="checkbox" name="agreemant" class="checkbox__input">
+									<label for="signUp-checkbox" class="checkbox__label">I agree with <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></label>
+								</div>
+								<button type="submit" class="sign-up__button button">Sign Up</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- signIn -->
+	<div id="signIn" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+					</svg>
+				</button>
+				<div class="sign-up__body">
+					<div class="sign-up__image sign-up__image-ibg">
+						<div class="sign-up__label">3legant.</div>
+						<div data-change class="sign-up__image-box">
+							<picture><source srcset="img/singUp/01.webp" type="image/webp"><img src="img/singUp/01.jpg" alt="image"></picture>
+							<picture><source srcset="img/singUp/0111.webp" type="image/webp"><img src="img/singUp/0111.jpg" alt="image"></picture>
+						</div>
+					</div>
+					<div class="sign-up__content">
+						<div class="sign-up__box">
+							<div class="sign-up__title">Sign In</div>
+							<div class="sign-up__text">Don’t have an accout yet? <a href="#" data-popup="#signUp">Sign Up</a></div>
+							<form class="sign-up__form">
+								<input type="text" name="name" autocomplete="off" class="sign-up__input" placeholder="Your usernam or email address">
+								<div class="sign-up__pass">
+									<input type="password" name="Password" autocomplete="off" class="sign-up__input" placeholder="Password">
+									<div class="pass-view"></div>
+								</div>
+								<div class="checkbox">
+									<input id="signIn-checkbox" type="checkbox" name="agreemant" class="checkbox__input">
+									<label for="signIn-checkbox" class="checkbox__label">Remember me</label>
+								</div>
+								<button type="submit" class="sign-up__button button">Sign Up</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20240105194103"></script>
+</body>
+
+</html>
